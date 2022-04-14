@@ -1,0 +1,97 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "computercraft:pocket_computer_normal"
+  },
+  "transitionalItem": {
+    "item": "computercraft:pocket_computer_normal"
+  },
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "computercraft:pocket_computer_normal"
+        }
+      ],
+      "results": [
+        {
+          "item": "computercraft:pocket_computer_normal"
+        },
+        {
+          "item": "create:iron_sheet"
+        }
+      ],
+      "processingTime": 50
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "computercraft:pocket_computer_normal"
+        },
+        {
+          "tag": "forge:plates/gold"
+        }
+      ],
+      "results": [
+        {
+          "item": "computercraft:pocket_computer_normal"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "computercraft:pocket_computer_normal"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "computercraft:pocket_computer_normal"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "computercraft:pocket_computer_advanced",
+      "chance": 50.0
+    },
+    {
+      "item": "computercraft:monitor_advanced",
+      "chance": 8.0
+    },
+    {
+      "item": "create:elector_tube",
+      "chance": 8.0
+    },
+    {
+      "item": "create:gold_sheet",
+      "chance": 5.0
+    },
+    {
+      "item": "create:polished_rose_quartz",
+      "chance": 2.0
+    },
+    {
+      "item": "create:rose_quartz",
+      "chance": 2.0
+    },
+    {
+      "item": "create:copper_nugget",
+      "chance": 2.0
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "loops": 6
+}

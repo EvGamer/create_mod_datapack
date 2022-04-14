@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "#L#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:plates/iron"
+    },
+    "L": {
+      "tag": "forge:glass_panes"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "item": "computercraft:monitor_normal"
+  }
+}
