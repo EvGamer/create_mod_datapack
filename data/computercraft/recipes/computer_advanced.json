@@ -1,0 +1,81 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "computercraft:monitor_advanced"
+  },
+  "transitionalItem": {
+    "item": "computercraft:monitor_advanced"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "computercraft:monitor_advanced"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "computercraft:monitor_advanced"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "computercraft:monitor_advanced"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "item": "computercraft:monitor_advanced"
+        }
+      ]
+    }
+    
+  ],
+  "results": [
+    {
+      "item": "computercraft:computer_advanced",
+      "chance": 120.0
+    },
+    {
+      "item": "computercraft:monitor_advanced",
+      "chance": 8.0
+    },
+    {
+      "item": "create:elector_tube",
+      "chance": 8.0
+    },
+    {
+      "item": "create:gold_sheet",
+      "chance": 5.0
+    },
+    {
+      "item": "create:polished_rose_quartz",
+      "chance": 2.0
+    },
+    {
+      "item": "create:rose_quartz",
+      "chance": 2.0
+    },
+    {
+      "item": "create:copper_nugget",
+      "chance": 2.0
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "loops": 8
+}
